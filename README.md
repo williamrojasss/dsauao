@@ -1,1 +1,5 @@
-# dsauao
+# DSA (DIGITAL SIGNATURE ALGORITHM)
+Algoritmo asimétrico diseñado para las firmas digitales. Ofrece el mismo nivel de seguridad que RSA, aunque está en constante desarrollo debido al apoyo gubernamental.
+Como su nombre lo indica, es un algoritmo que sirve para firmar, no para cifrar información dado que no es reversible. Se basa en la dificultad de calcular logaritmos discretos en campos finitos métodos de Schnorr y ElGamal. DSA primero selecciona un algoritmo de resumen (generalmente uno de la familia SHA) y una longitud de clave normalmente de 1024 bits en adelante.
+
+Java dentro de su lenguaje de programación incluye la API de seguridad. El paquete java.security proporciona las clases e interfaces para el desarrollo en el marco de seguridad. Esto incluye clases que implementan una arquitectura de seguridad de control de acceso detallada y fácil de configurar. Este paquete por defecto también admite la generación y almacenamiento de pares de claves públicas criptográficas, así como una serie de operaciones criptográficas exportables como por ejemplo aquellas para obtener el resumen de mensajes y la generación de firmas digitales. 
